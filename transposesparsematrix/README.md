@@ -18,7 +18,7 @@ t_msg	4	0	0	0	3	0	0	0	5	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
 
 ## Contents of the StackOverflow question:
 
-### Reshaping a table in python
+### [Reshaping a table in python](http://stackoverflow.com/q/32897249/2744166)
 
 Being new to Python I am finding it a little difficult to comprehend solutions to problems of 'similar' (not sure though) nature posted on the forum and all my attempts to correlate them with mine have not been successful
 
@@ -43,6 +43,7 @@ Rank Day Parameter
 8   4    g_up
 3   5    g_up
 3   56   g_up
+```
 
 Problem Statement: The .csv file has been extracted from a dataset; the aim of which is to study the pattern of the "parameter" over a span of period (say 90 days) along with its "rank"(gravity) on any given "day" of a period. The said parameter may or may not occur on a particular day during the said period.
 
@@ -50,7 +51,7 @@ A model now exists where every instance of occurrence of a parameter is being pu
 
 If may explanation has aided confusion let me put it in this way. Considering the csv file had been as shown could I reshape this to a one having 3 rows and 90 columns
 
- ```   
+```
               day1   day2   day3    day4  ............ day90 
     x_time     10     10    9        0                   0 
     t_msg       4      0    0        0                   4
@@ -61,6 +62,6 @@ PS:I understand that I have been mentioning .csv file all throughout but have pu
 
 Thanking in anticipation 
 
-     
+-- Posted by [sherinkapotein](http://stackoverflow.com/users/613976/sherinkapotein)
 
 
